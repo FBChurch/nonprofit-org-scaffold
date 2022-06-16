@@ -8,15 +8,13 @@ export default function TopNavigation() {
   return (
     <Wrapper>
       <Menu>
-        <MenuItem onClick={() => navigate("/needHelp")}>Need Help?</MenuItem>
-        <MenuItem onClick={() => navigate("/guest-portal")}>
-          Guest Portal
-        </MenuItem>
+       {/* <MenuItem onClick={() => navigate("/needHelp")}>Need Help?</MenuItem>
+        <MenuItem onClick={() => navigate("/guest-portal")}>Guest Portal</MenuItem> */}
         <MenuItem onClick={() => navigate("/stories")}>Blog</MenuItem>
       </Menu>
       <Menu>
         <MenuItem onClick={() => navigate("/contact")}>Contact Us</MenuItem>
-        <MenuItem onClick={() => navigate("/staff-portal")}>
+       {/* <MenuItem onClick={() => navigate("/staff-portal")}>
           Staff Portal
         </MenuItem>
         <MenuItem onClick={() => navigate("/board-portal")}>
@@ -24,7 +22,7 @@ export default function TopNavigation() {
         </MenuItem>
       </Menu>
       <Menu>
-        <MenuItem onClick={() => navigate("/careers")}>Careers</MenuItem>
+      <MenuItem onClick={() => navigate("/careers")}>Careers</MenuItem> */}
       </Menu>
     </Wrapper>
   );
