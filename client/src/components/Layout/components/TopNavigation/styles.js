@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background-color: ${(props) => props.theme.darkpurple};
+  background-color: ${(props) => props.theme.blue};
   padding: 5px;
   display: flex;
   justify-content: center;
@@ -37,7 +37,7 @@ export const MenuItem = styled.li`
   transition: 0.2s ease-in-out;
 
   :hover {
-      background-color: ${props => props.theme.lightpurple};
+      background-color: ${props => props.theme.lightblue};
   }
 
 

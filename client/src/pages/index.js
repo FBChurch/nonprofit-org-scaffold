@@ -32,10 +32,11 @@ const IndexPage = () => {
       <section className={styles.sectionA}>
         <h1>We are Cornerstone Community Church N.W. </h1>
         <p>
-          Located at 4032 W. Heroy Ave. Spokane, WA 99205
+          We are about loving God, loving people, and changing lives.<br />
+          We are a Bible-believing, non-denominational church ready to grow!
         </p>
         <p>
-          Service Times:  Sunday 10:00AM – 1130AM
+          Service Times:  Sunday 10:00AM – 11:30AM
         </p>
       </section>
 
@@ -56,7 +57,7 @@ const IndexPage = () => {
           <Circle
             onClick={() => navigate("/give")}
             image={HowYouCanHelp}
-            title={"How You Can Help"}
+            title={"What We Believe"}
           ></Circle>
         </div>
       </section>

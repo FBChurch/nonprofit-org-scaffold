@@ -15,25 +15,25 @@ export default function contact() {
         color="white"
         backgroundColor="darkblue"
         height={"22vh"}
-        textDirection={"left"}
+        textDirection={"center"}
       >
         <h1>Contact Us</h1>
-        <h3>We'd love to connect.</h3>
       </Banner>
 
       <section className={styles.contact}>
         <div className={styles.contactInfo}>
-          <h2>Family Promise Administrative Offices</h2>
+   {/*  <h2>Family Promise Administrative Offices</h2> */}
           <p>
-            2322 E. Sprague Ave <br /> Spokane, WA 99202
+            4032 W. Heroy Ave. <br /> Spokane, WA 99205
           </p>
           <p>
-            509-747-5487 <br /> Fax: 509-747-5537
+            Phone:  <br /> Fax: 
           </p>
-          <p>office@familypromiseofspokane.org</p>
+          <p>Email: spokane.cornerstone@gmail.com</p>
+          <img src="https://files.slack.com/files-pri/T03DLMN7U6R-F03FL15NSNQ/church_map.png" alt="Cornerstone Map Image"></img>
         </div>
 
-        <div className={styles.contactInfo}>
+    {/* <div className={styles.contactInfo}>
           <h2>Family Promise Emergency Shelter</h2>
           <p>
             2002 E. Mission Avenue <br /> Spokane, WA 99202 ​
@@ -49,10 +49,10 @@ export default function contact() {
               Go to 2002 E. Mission Avenue.
             </small>
           </Button>
-        </div>
+        </div> */}
       </section>
 
-      <section className={styles.formerGuest}>
+  {/* <section className={styles.formerGuest}>
         <h2>
           Are you a former guest <br /> appealing a decision?{" "}
         </h2>
@@ -68,7 +68,7 @@ export default function contact() {
         </Button>
       </section>
 
-      <DonateOrVolunteer />
-    </div>
+      <DonateOrVolunteer /> */}
+    </div> 
   );
 }
